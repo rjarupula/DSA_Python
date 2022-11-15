@@ -8,7 +8,7 @@
 # In[1]:
 
 
-def binarySearch(item, my_list):
+def binary_search(item, my_list):
     status = False
     first = 0
     last = len(my_list) - 1
@@ -33,10 +33,8 @@ my_list = set(my_list)
 my_list = sorted(my_list)
 
 item = int(input('Enter the key number to search in list. >> '))
-print(binarySearch(item, my_list))
+print(binary_search(item, my_list))
 
-
-# In[ ]:
 
 
 
