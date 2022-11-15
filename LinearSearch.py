@@ -3,10 +3,10 @@
 
 # ## Linear Search using Python Code
 
-# In[4]:
 
 
-def linearSearch(item, my_list):
+
+def linear_search(item, my_list):
     status = False
     point = 0
     
@@ -18,16 +18,15 @@ def linearSearch(item, my_list):
     return status
 
 
-# In[5]:
+
 
 
 my_list = [2,12,45,3,67,90,56,34,6,87,8]
 item = int(input('Enter the target Number >> '))
 
-print(linearSearch(item, my_list))
+print(linear_search(item, my_list))
 
 
-# In[ ]:
 
 
 
